@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOK gallery</title>
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img width="180px" height="130px" src="./IMAGES/young-woman-reading-korean-drawing-style.png" alt="no-image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#carouselExampleIndicators">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#bookss">BOOKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#contact">CONTACT</a>
+            </li>
+            <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./IMAGES/c1.jpg" class="d-block w-100" alt="no-image">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./IMAGES/c2.jpg" class="d-block w-100" alt="no-image">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./IMAGES/c3.jpg" class="d-block w-100" alt="no-image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--  -->
+    <section>
+      <div class="container-fluid bg-secondary text-center">
+        <h1 class="p-5 text-light fs-1 fw-bolder">BOOK GALLERY</h1>
+        <p class="p-3 text-light pb-5 fs-3 fw-bold">A reader lives a thousand lives before he dies . . </p>
+      </div>
+    </section>
+    <!-- books -->
+    <section id="bookss">
+      <div class="container-fluid d-flex justify-content-evenly align-items-center flex-wrap p-5 text-center"
+        style="width: 100%;">
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/511c-m0XnlL._SY445_SX342_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">HARRY POTTER</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make p the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT NOW</a> -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">HARRY POTTER</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At quasi possimus dolorem nam facilis amet a exercitationem repudiandae nihil in cupiditate blanditiis saepe laboriosam ullam quidem obcaecati, asperiores aspernatur neque?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/41jNSR49w2L._SY445_SX342_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">THE BOOK OF DOGS</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT NOW</a> -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrops">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrops" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">THE BOOK OF DOGS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores sapiente totam, quibusdam deserunt molestias commodi rem ullam dolorum veniam minima deleniti eligendi ducimus aperiam architecto ratione tempore, fuga voluptas?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/41XCHU2ZXvL._SY445_SX342_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">SIGNS OF LIFE</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT NOW</a> -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrope">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrope" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">SIGNS OF LIFE</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique eos dolore incidunt beatae at itaque cum magni ea quas, explicabo mollitia assumenda adipisci facere possimus. A, aliquid? Culpa, fugit pariatur?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/6115hysbRbL._SX342_SY445_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">A PASSAGE TO INDIA</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT NOW</a> -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdropr">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdropr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">A PASSAGE TO INDIA</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti accusamus! Nam corporis illo veritatis possimus cupiditate laudantium qui dolorum quaerat, modi minus accusamus expedita dolorem sunt at iure velit?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/41AnbvGOT3L._SY445_SX342_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">YOU CAN</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT NOW</a> -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdropt">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdropt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">YOU CAN</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nam velit, illo beatae temporibus, non corporis perspiciatis ea necessitatibus dolorum labore? Unde aut doloremque velit exercitationem, eveniet rem corrupti quo?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; height: 40rem;">
+          <img src="https://m.media-amazon.com/images/I/41-RLumdV4L._SY445_SX342_.jpg" class="card-img-top img-fluid"
+            alt="..." style="width: 100%; height: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title pt-4">THREE MEN IN A BOAT</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="https://www.amazon.in/ref=nav_logo" class="btn btn-primary mt-5">BUT</a> -->
+            <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdropy">
+              KNOW MORE
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdropy" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">THREE MEN IN A BOAT</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt, eius at placeat recusandae sint labore omnis asperiores. Necessitatibus modi corrupti pariatur odio perspiciatis unde eos dicta laborum consequuntur fugiat!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+     <section id="contact">
+      <div class="w-100  text-center bg-secondary">
+        <h1 class="p-4 fw-bold fs-1">Contact Us</h1>
+        <i class="fa-brands fa-whatsapp fs-3 p-3"></i>
+        <i class="fa-brands fa-facebook fs-3 p-3"></i>
+        <i class="fa-brands fa-instagram fs-3 p-3"></i>
+      </div>
+     </section>
+  </div>
+</body>
+<!-- js-link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
